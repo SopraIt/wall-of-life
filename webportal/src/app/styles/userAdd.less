@@ -1,0 +1,314 @@
+.body{
+    background-color:  #ecfbff;
+}
+.container-user{
+    background-color:  #b5e4f2;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.labelNome, .labelCognome{
+    color:#578a99;
+}
+.form-controls{
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.randomDefaultUserBig{
+    max-width: 320px;
+    max-height: 318px;
+    padding: 22px;
+    margin-top: 7px;
+    margin-left: 11px;
+    margin-bottom: 7px;
+    background-color: #ecfbff;
+    @media(max-width:767px){
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+.imageAnimal{
+    margin: 5px;
+    width: 63px;
+}
+
+.button-photo{
+    border: none;
+    background-color: #ecfbff;
+    width: 105px;
+    height: 106px;
+    border-radius: 141px;
+    margin-top: 35px;
+
+}
+.button-photoz{
+    @media(max-width:767px){
+        float:left;
+    }
+}
+.error-field-label{
+    color: #f48a8d;
+}
+.button-folderUser{
+    border: none;
+    background-color: #ecfbff;
+    width: 105px;
+    height: 106px;
+    margin-top:35px;
+    border-radius: 141px;
+    position: relative;
+     @media(max-width:767px){
+        float: right;
+    }
+}
+.button-save-user{
+    margin-top: 3%;
+    border: none;
+    float: right;
+    background-color: #ecfbff;
+      @media(max-width:552px){
+         width: 49%;
+    }
+}
+.button-close-user{
+    margin-top: 3%;
+    border: none;
+    background-color: #ecfbff;
+     @media(max-width:552px){
+         width: 49%;
+    }
+}
+.img-size-usercreat-generic{
+    width: 40%;
+}
+.img-button-create{
+    width: 70%;
+}
+//mixin
+.genericInputUser{
+    width: 300px;
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 0px 10px;
+    margin-top: 35px;
+    font-size: 250%;
+    border-left: solid #356d7d 1px;
+    border-bottom: solid #356d7d 1px;
+    color: #356d7d;
+}
+.container-input-user{
+
+    .cognomeUser{
+        .genericInputUser();
+    }
+    .dataUser{
+        .genericInputUser();
+        padding: 25px 7px;
+
+    }
+    .nameUser{
+        .genericInputUser();
+    }
+}
+.container-input-user{
+    padding: 0;
+}
+.blocked-field{
+    display: block;
+    margin-left: 94px;
+}
+input{
+  padding:5px;
+  font-size:16px;
+  font-family:'Source-Sans';
+}
+.container-image-user{
+    padding: 0;
+    text-align: center;
+     @media (max-width: 1199px) {
+         margin-right: 0px;
+    }
+
+}
+
+.containerimageAnimal, .containerWebCam{
+ padding:0;
+}
+.containerWebCam {
+    .userDetails-hands {
+        bottom: 14%;
+        right: 17%;
+        left: auto;
+        top: auto;
+    }
+}
+.containerimageAnimal{
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+canvas, video{
+    position: absolute;
+    width: 85%;
+}
+canvas{
+    height: 291px;
+    width: 291px;
+
+     @media(max-width:767px){
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+}
+.x{
+    display: none;
+}
+.canvasTake{
+    padding: 4%;
+    background-color: #ecfbff;
+}
+.hideCanvas{
+    position: static;
+}
+video{
+    margin-top: 2%;
+}
+//
+#showImageUser{
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.animal{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.containerButtonWebcam{
+    padding: 0;
+    margin: 0;
+    position: relative;
+     @media(max-width:767px){
+        margin-top: 2%;
+
+    }
+}
+
+
+
+.container-input-user .error-field-empty{
+    border-left: solid  #f48a8d 1px;
+    border-bottom: solid #f48a8d  1px;
+}
+
+.modal-body-webcam{
+    padding: 181px;
+}
+.removeForWeb{
+    display: none;
+}
+.takePhoto{
+    text-align: center;
+    padding: 4%;
+}
+
+// label input style name and cognome
+
+.field {
+    position: relative;
+}
+label{
+    left:9px;
+    top:48px;
+    position: absolute;
+    font-size: 29px;
+    cursor: pointer;
+    transition: all 1s;
+    text-transform: uppercase;
+    transform-origin: left bottom;
+
+}
+input:focus + label {
+  transform: translate(0,-52px) scale(0.5);
+}
+input:not(:focus):valid ~ label{
+      transform: translate(0,-52px) scale(0.5);}
+//
+.modalHeaderuser{
+    border: none;
+}
+// wrapper input type file
+::-webkit-file-upload-button {
+    cursor:pointer;
+}
+input[type=file] {
+    cursor:pointer;
+}
+// styling for type data
+input[type='date']{position:relative;}
+::-webkit-datetime-edit, ::-webkit-clear-button, ::-webkit-calendar-picker-indicator{position:absolute;background-color: transparent; color: #578a99;}
+::-webkit-clear-button{right:1.54em;background-color: transparent;   color: #578a99;}
+::-webkit-inner-spin-button{-webkit-appearance:none; margin:0; background-color: transparent;    color: #578a99;}
+::-webkit-calendar-picker-indicator{right:0; padding:.539em .34em;background-color: transparent;    color: #578a99;}
+
+//
+
+.validateDataUser{
+    opacity: 0;
+    position: absolute;
+}
+.spanModalUser{
+    padding-right: 8px;
+}
+.button-photos{
+    background-color: #356d7d;
+    margin-top: 12px;
+}
+@media screen and (min-width: 1px) and (max-width: 788px) {
+    .blocked-field{
+        margin-left: 0;
+    }
+    .container-input-user  .nameUser {
+        width:100%;
+    }
+    .container-input-user  .cognomeUser{
+        width:100%;
+    }
+    .container-input-user  .dataUser {
+        width:100%;
+    }
+}
+@media screen and (min-width: 786px) and (max-width: 1300px) {
+    .blocked-field{
+        margin-left: 0;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .folderUserCont{
+        position: absolute;
+        top:0;
+        left: 515%;
+    }
+}

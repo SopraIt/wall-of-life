@@ -1,0 +1,298 @@
+@import '~bootstrap/less/bootstrap';
+@import 'nav.less';
+@import 'variables.less';
+@import 'userAdd.less';
+@import 'searchUser.less';
+@import 'userDetails.less';
+
+@font-face {
+  font-family: 'Source-Sans';
+  src: url('/fonts/SourceSansPro-Regular.ttf');
+}
+
+.row{
+    margin: 0;
+}
+
+html, body {
+    background-color: @color-background;
+}
+html * {
+  .color-text;
+  font-family: 'Source-Sans';
+}
+
+p{
+    text-align: center;
+    height: 49px;
+    font-size: 190%;
+    overflow: hidden;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+}
+
+label {
+    transform: translate(0, -52px) scale(0.5);
+}
+
+.table {
+  > thead > tr > th {
+    border-bottom: 3px solid @color-background;
+  }
+  > tbody > tr > td {
+    border-top: 3px solid @color-background;
+  }
+}
+
+.container {
+  width: auto;
+}
+
+.start-wall {
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.img-generic{
+    width:100%;
+    padding:25px;
+}
+.img-generic-consolation{
+    .div-color-background;
+    padding:25px;
+    width: 100%;
+}
+
+.margin-top-rowindex{
+    margin-top: 42px;
+    text-align: center;
+}
+.button-user, .button-user-search, .button-awards{
+    background-color: @color-background-dark;
+    margin-top: 33px;
+}
+.nav-awards-img{
+    width: 53px;
+}
+.color-nav-awards{
+    background-color: @color-background;
+}
+.user{
+    text-align: center;
+}
+.buttons-awards-cons{
+    width:80%;
+}
+.buttons-awards{
+    width: 100%;
+}
+.start{
+    text-align: center;
+}
+.prize-consolation{
+    text-align: center;
+    background-color: #6cd2f0;
+    width: 15%;
+    margin: 0 auto;
+    padding: 16px;
+}
+.button-consolation{
+margin-left: 30%;
+    width: 33%;
+    background-color: #bef0ff;
+    padding: 7px;
+}
+.button-consolation-left{
+    .div-color-background;
+    width: 34%;
+    background-color: #bef0ff;
+    padding: 7px;
+}
+.container-prize-consolation{
+    margin-bottom: 42px;
+}
+
+@media screen (min-width: 992px) {
+    .margin-button-awards{
+        margin-right: 80px;
+    }
+}
+
+.awards{
+    background-color: #6cd2f0;
+    margin-top: 44px;
+    margin: 0 auto;
+    padding: 5%;
+    margin-bottom: 7%;
+    padding-bottom: 40%;
+    p {
+        font-size: 17px;
+        height: 39px;
+        padding-top: 16px;
+    }
+    button {
+      border: none;
+      border-radius: 0;
+    }
+}
+
+.active{
+    list-style-type: none;
+}
+.consolated {
+    width: 60%;
+    padding-bottom: 20%;
+}
+.button-left{
+    .div-color-background;
+    }
+.button-right{
+    .div-color-background;
+    margin-left: 16%;
+}
+
+.add-class-color{
+    background-color: #184653;
+}
+.image-setting{
+    padding: 6%;
+    width: 100%;
+}
+
+.videoplay{
+     width: 598px;
+    height: 300px;
+}
+
+.image-generic{
+    .div-color-background;
+    .image-setting;
+}
+
+.modal {
+    &.open {
+        display: block;
+    }
+}
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+    background-clip: padding-box;
+    outline: 0;
+}
+.text-prize-consolation{
+    text-align: center;
+}
+.error{
+    background-color: red;
+}
+.modal-title{
+    font-size: 37px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.modal-webcam {
+  video {
+    position: static;
+  }
+}
+.ModalCenterFolderInputUpload{
+     padding-right: 43%;
+}
+.descriptionMuted{
+    font-size: 128%;
+    margin-left: 3%;
+}
+.ModalCenterFolderInputDescription, .modalCenterWebInputDescription, .modalCenterWebInputUpload, .modalCenterFolderInputUploadshow {
+    width: 100%;
+    text-align: center;
+}
+.modalCenterFolderInputUploadhidden{
+    margin-bottom: -6%;
+    width: 100%;
+    opacity: 0;
+    z-index: 999;
+}
+//start media
+@media (min-width : 992px) and (max-width : 1199px){
+    .button-right{
+        margin-left: 33%;
+    }
+    .prize-consolation {
+    text-align: center;
+    background-color: #6cd2f0;
+    width: 32%;
+    margin: 0 auto;
+    padding: 16px;
+    }
+}
+@media (min-width : 20px) and (max-width : 991px){
+    .prize-consolation {
+    text-align: center;
+    background-color: #6cd2f0;
+    width: 63%;
+    margin: 0 auto;
+    padding: 16px;
+}
+    .buttons-awards {
+    width: 17%;
+}
+    .button-right{
+        margin-left: 0;
+    }
+    .awards{
+        padding-bottom: 15%;
+      }
+}
+@media (min-width : 768px) and (max-width : 991px){
+    .button-right{
+        margin-left: 33%;
+    }
+}
+
+
+.home-icon {
+    > a {
+        display: inline-block;
+        padding: 0 12px;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.input-file-button {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stars-field-container {
+	.userDetails-data {
+		width: 100%;
+	}
+
+    &.userButtons {
+        padding: 6px 14px;
+        .userButton {
+            margin: 0;
+        }
+    }
+}
+
+.stars-point {
+	display: none;
+}

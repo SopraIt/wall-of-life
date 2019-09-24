@@ -1,0 +1,555 @@
+{
+  "people": [
+    {
+      "id": "utente-prova",
+      "firstName": "Utente",
+      "lastName": "Prova",
+      "dateOfBirth": "2018-11-02T09:10:02.786Z",
+      "age": "0",
+      "level": "1",
+      "image": {
+        "name": "male-profile",
+        "url": "male-profile.jpg"
+      },
+      "games": [
+        {
+          "matchid": "0",
+          "date": "28-12-2018",
+          "level": "1",
+          "correctanswers": "13",
+          "totalhelp": "2",
+          "totaltime": "04:42"
+        }
+      ],
+      "hand": "l"
+    }
+  ],
+  "categories": [
+    {
+      "categoryid": "1",
+      "name": "selectable",
+      "selectable": "true",
+      "draggable": "false",
+      "container": "false"
+    },
+    {
+      "categoryid": "2",
+      "name": "draggable",
+      "selectable": "false",
+      "draggable": "true",
+      "container": "false"
+    },
+    {
+      "categoryid": "3",
+      "name": "container",
+      "selectable": "false",
+      "draggable": "false",
+      "container": "true"
+    },
+    {
+      "categoryid": "4",
+      "name": "selectable-container",
+      "selectable": "true",
+      "draggable": "false",
+      "container": "true"
+    }
+  ],
+  "prizes": [
+    {
+      "id": "1",
+      "type": "ytvideo",
+      "description": "Mario",
+      "source": "https://www.youtube.com/watch?v=er9ueNyz7Mk"
+    },
+    {
+      "id": "2",
+      "type": "ytvideo",
+      "description": "Baby Shark",
+      "source": "https://www.youtube.com/watch?v=FX20kcp7j5c"
+    },
+    {
+      "id": "3",
+      "type": "ytvideo",
+      "description": "Whiskey il Ragnetto",
+      "source": "https://www.youtube.com/watch?v=lReHGNMwHoM"
+    },
+    {
+      "id": "4",
+      "type": "browser",
+      "description": "Unity3d Docs",
+      "source": "https://docs.unity3d.com/ScriptReference/Application.html"
+    },
+    {
+      "id": "5",
+      "type": "ytvideo",
+      "description": "Big Buck Bunny",
+      "source": "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+    },
+    {
+      "id": "6",
+      "type": "ytvideo",
+      "description": "Tom and Jerry",
+      "source": "https://www.youtube.com/watch?v=IC7kXsnYCWk"
+    },
+    {
+      "id": "7",
+      "type": "ytvideo",
+      "description": "We Are Number One",
+      "source": "https://www.youtube.com/watch?v=PfYnvDL0Qcw"
+    }
+  ],
+  "classes": [
+    {
+      "name": "fruit",
+      "items": [
+        {
+          "itemid": "1",
+          "name": "ananas",
+          "text": "Un'ananas",
+          "shorttext": "Ananas",
+          "type": "fruit",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "2",
+          "name": "apple",
+          "text": "Un chilo di mele",
+          "shorttext": "Mele",
+          "type": "fruit",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "3",
+          "name": "potato",
+          "text": "Un chilo di patate",
+          "shorttext": "Patate",
+          "type": "fruit",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "4",
+          "name": "watermelon",
+          "text": "Un'anguria",
+          "shorttext": "Anguria",
+          "type": "fruit",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "5",
+          "name": "zucchini",
+          "text": "Un chilo di zucchine",
+          "shorttext": "Zucchine",
+          "type": "fruit",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "6",
+          "name": "banana",
+          "text": "Un chilo di banane",
+          "shorttext": "Banane",
+          "type": "fruit",
+          "category": "selectable-container"
+        }
+      ]
+    },
+    {
+      "name": "school",
+      "items": [
+        {
+          "itemid": "7",
+          "name": "markers",
+          "text": "Una scatola di pennarelli",
+          "shorttext": "Pennarelli",
+          "type": "school",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "8",
+          "name": "notebooks",
+          "text": "Un quaderno",
+          "shorttext": "Quaderno",
+          "type": "school",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "9",
+          "name": "backpack",
+          "text": "Uno zaino",
+          "shorttext": "Zaino",
+          "type": "school",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "10",
+          "name": "calculator",
+          "text": "Una calcolatrice",
+          "shorttext": "Calcolatrice",
+          "type": "school",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "11",
+          "name": "pens",
+          "text": "Tre penne",
+          "shorttext": "Penne",
+          "type": "school",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "12",
+          "name": "ruler",
+          "text": "Una confezione di righelli",
+          "shorttext": "Righelli",
+          "type": "school",
+          "category": "selectable-container"
+        }
+      ]
+    },
+    {
+      "name": "grocery",
+      "items": [
+        {
+          "itemid": "13",
+          "name": "ham",
+          "text": "Un etto di prosciutto",
+          "shorttext": "Prosciutto",
+          "type": "grocery",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "14",
+          "name": "mozzarella",
+          "text": "Una mozzarella",
+          "shorttext": "Mozzarella",
+          "type": "grocery",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "15",
+          "name": "meat",
+          "text": "Una fetta di carne",
+          "shorttext": "Carne",
+          "type": "grocery",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "16",
+          "name": "sausages",
+          "text": "Una salsiccia",
+          "shorttext": "Salsiccia",
+          "type": "grocery",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "17",
+          "name": "salami",
+          "text": "Un salame",
+          "shorttext": "Salame",
+          "type": "grocery",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "18",
+          "name": "cheese",
+          "text": "Un pezzo di formaggio",
+          "shorttext": "Formaggio",
+          "type": "grocery",
+          "category": "selectable-container"
+        }
+      ]
+    },
+    {
+      "name": "kitchen",
+      "items": [
+        {
+          "itemid": "19",
+          "name": "pan",
+          "text": "Una padella",
+          "shorttext": "Padella",
+          "type": "kitchen",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "20",
+          "name": "cups",
+          "text": "Un set di bicchieri",
+          "shorttext": "Bicchieri",
+          "type": "kitchen",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "21",
+          "name": "colander",
+          "text": "Uno scolapasta",
+          "shorttext": "Scolapasta",
+          "type": "kitchen",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "22",
+          "name": "funnel",
+          "text": "Un imbuto",
+          "shorttext": "Imbuto",
+          "type": "kitchen",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "23",
+          "name": "squeezer",
+          "text": "Uno spremiagrumi",
+          "shorttext": "Spremiagrumi",
+          "type": "kitchen",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "24",
+          "name": "plates",
+          "text": "Un set di piatti",
+          "shorttext": "Piatti",
+          "type": "kitchen",
+          "category": "selectable-container"
+        }
+      ]
+    },
+    {
+      "name": "house",
+      "items": [
+        {
+          "itemid": "25",
+          "name": "showergel",
+          "text": "Un bagnoschiuma",
+          "shorttext": "Bagnoschiuma",
+          "type": "house",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "26",
+          "name": "sponge",
+          "text": "Una spugna",
+          "shorttext": "Spugna",
+          "type": "house",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "27",
+          "name": "rag",
+          "text": "Uno strofinaccio",
+          "shorttext": "Strofinaccio",
+          "type": "house",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "28",
+          "name": "dustpan",
+          "text": "Una paletta",
+          "shorttext": "Paletta",
+          "type": "house",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "29",
+          "name": "basin",
+          "text": "Una bacinella",
+          "shorttext": "Bacinella",
+          "type": "house",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "30",
+          "name": "toothbrush",
+          "text": "Uno spazzolino",
+          "shorttext": "Spazzolino",
+          "type": "house",
+          "category": "selectable-container"
+        }
+      ]
+    },
+    {
+      "name": "clothes",
+      "items": [
+        {
+          "itemid": "31",
+          "name": "clogs",
+          "text": "Un paio di zoccoli",
+          "shorttext": "Zoccoli",
+          "type": "clothes",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "32",
+          "name": "hat",
+          "text": "Un cappellino",
+          "shorttext": "Cappellino",
+          "type": "clothes",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "33",
+          "name": "scarf",
+          "text": "Una sciarpa",
+          "shorttext": "Sciarpa",
+          "type": "clothes",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "34",
+          "name": "shorts",
+          "text": "Un paio di pantaloncini",
+          "shorttext": "Pantaloncini",
+          "type": "clothes",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "35",
+          "name": "socks",
+          "text": "Un paio di calzini",
+          "shorttext": "Calzini",
+          "type": "clothes",
+          "category": "selectable-container"
+        },
+        {
+          "itemid": "36",
+          "name": "tshirt",
+          "text": "Una maglietta",
+          "shorttext": "Maglietta",
+          "type": "clothes",
+          "category": "selectable-container"
+        }
+      ]
+    }
+  ],
+  "answers": {
+    "briefing": [
+      {
+        "action": [
+          {
+            "id": 1,
+            "text": "Al mercato"
+          },
+          {
+            "id": 2,
+            "text": "A scuola"
+          },
+          {
+            "id": 3,
+            "text": "A casa"
+          },
+          {
+            "id": 4,
+            "text": "In piscina"
+          },
+          {
+            "id": 5,
+            "text": "Al parco"
+          },
+          {
+            "id": 6,
+            "text": "Al supermercato"
+          }
+        ],
+        "type": "text"
+      },
+      {
+        "action": [
+          {
+            "id": 1,
+            "text": "{1} euro per {0}"
+          },
+          {
+            "id": 2,
+            "text": "{1} euro per {0}"
+          },
+          {
+            "id": 3,
+            "text": "{1} euro per {0}"
+          },
+          {
+            "id": 4,
+            "text": "{1} euro per {0}"
+          },
+          {
+            "id": 5,
+            "text": "{1} euro per {0}"
+          },
+          {
+            "id": 6,
+            "text": "{1} euro per {0}"
+          }
+        ],
+        "type": "param"
+      }
+    ],
+    "marketstand": [
+      {
+        "action": [
+          {
+            "id": 1,
+            "text": "Quanto devo pagare?"
+          },
+          {
+            "id": 2,
+            "text": "Dove devo andare?"
+          },
+          {
+            "id": 3,
+            "text": "Come stai?"
+          },
+          {
+            "id": 4,
+            "text": "Arrivederci!"
+          },
+          {
+            "id": 5,
+            "text": "Che ore sono?"
+          },
+          {
+            "id": 6,
+            "text": "Devo avere il resto?"
+          }
+        ],
+        "type": "text"
+      },
+      {
+        "action": [
+          {
+            "id": 1,
+            "text": "Devo avere il resto?"
+          },
+          {
+            "id": 2,
+            "text": "Dove devo andare?"
+          },
+          {
+            "id": 3,
+            "text": "Come stai?"
+          },
+          {
+            "id": 4,
+            "text": "Arrivederci!"
+          },
+          {
+            "id": 5,
+            "text": "Quanto devo pagare?"
+          },
+          {
+            "id": 6,
+            "text": "Che ore sono?"
+          }
+        ],
+        "type": "text"
+      }
+    ]
+  },
+  "lastId": {
+    "item": "1",
+    "category": "1",
+    "prize": "1",
+    "person": "1",
+    "match": "1"
+  },
+  "stars": {
+    "1": "12",
+    "2": "20",
+    "3": "25"
+  }
+}

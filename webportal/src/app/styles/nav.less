@@ -1,0 +1,83 @@
+
+.header{
+    .navigation{
+        background-color: @color-background;
+        text-align: center;
+        height: 88px;
+    }
+
+    .index{
+        position: absolute;
+        top: 33px;
+        left: 58px;
+        font-size: 22px;
+        text-decoration: none;
+
+        .back-arrow-container {
+            position: relative;
+            transform: rotate(180deg);
+            display: inline-block;
+            .back-arrow {
+                width: 27px;
+                height: 12px;
+                border: none;
+                background: none;
+                position: relative;
+                display: inline-block;
+                transform: scale(3);
+                &::before {
+                    top: 3px;
+                    right: 6px;
+                    width: 8px;
+                    height: 8px;
+                    content: '';
+                    position: absolute;
+                    transform: rotate(-45deg);
+                    box-shadow: 2px 2px 0 @color-text, 3px 2px 0 @color-text, 2px 3px 0 @color-text, 3px 3px 0 @color-text;
+                }
+                &::after {
+                    width: 0;
+                    height: 0;
+                    left: 0;
+                    bottom: 50%;
+                    content: '•••';
+                    color: @color-text;
+                    line-height: 0;
+                    font-size: 14px;
+                    position: absolute;
+                    text-align: right;
+                    transition: left .1s ease-out, bottom .1s ease-out, letter-spacing .1s ease-out;
+                }
+                
+                &:hover,
+                &:focus {
+                    outline: none;
+                    &::after {
+                    left: -.19em;
+                    letter-spacing: .1em;
+                    }
+                }
+            }
+        }
+    }
+
+    .prize{
+        font-size: 44px;
+        text-decoration: none;
+        }
+
+    .navbar-button-add-search{
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        right: 25px;   
+        text-decoration: none;
+        }
+    .navbar-button-add{
+        text-align: center;
+        padding-top: 8px;
+        position: absolute;
+        right: 94px;   
+        text-decoration: none;
+    }
+}

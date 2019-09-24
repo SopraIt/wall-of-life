@@ -1,0 +1,27 @@
+{
+  "name": "web-portal",
+  "description": "web-portal",
+  "productName": "web-portal",
+  "version": "0.1.0",
+  "private": true,
+  "main": "electron-starter.js",
+  "homepage": "./",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express-fileupload": "^1.0.0",
+    "json-server": "^0.12.2"
+  },
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-packager": "^12.1.0"
+  },
+  "scripts": {
+    "electron": "electron .",
+    "electron-mac": "DEV_MODE=true electron .",
+    "electron-win": "set DEV_MODE=true && electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=favicon.ico --prune=true --out=release-builds",
+    "package-win": "electron-packager . web-portal --overwrite --asar --platform=win32 --arch=ia32 --icon=favicon.ico --prune=true --out=release-builds --version-string.CompanyName=SopraSteria --version-string.FileDescription=WoL --version-string.ProductName=\"Wall of Life\"",
+    "package-linux": "electron-packager . web-portal --overwrite --asar=true --platform=linux --arch=x64 --icon=favicon.ico --prune=true --out=release-builds"
+  }
+}

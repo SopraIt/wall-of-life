@@ -1,0 +1,20 @@
+# stylesheets
+stylesheets:
+    - 'less:dist'
+
+# javascripts
+javascripts_dev:
+    - 'webpack:dev'
+
+javascripts_prod:
+    - 'webpack:prod'
+
+# build
+build:
+    - 'javascripts_dev'
+    - 'stylesheets'
+
+build_prod:
+    - 'javascripts_dev'
+    - 'javascripts_prod'
+    - 'stylesheets'
