@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
-  - [grunt build](#npm-start)
-  - [npm run electron-dev](#npm-electron-dev)
+  - [grunt build](#grunt-build)
+  - [npm run electron-win](#npm-run-electron-win)
   - [npm run package-win](#npm-run-package-win)
 - [Build Process](#build-process)
 
@@ -28,30 +28,30 @@ release-build/
 ```
 
 ############
-## Available Scripts in the project directory:
+### Available Scripts in the project directory:
 
-### `grunt build`
+#### `grunt build`
 Builds the so called `WebPortal`, generates static files that would be bundled into electron
 
 ############
-## Available Scripts in the electron directory:
+### Available Scripts in the electron directory:
 
-### `npm run electron-mac`
-### `npm run electron-win`
+#### `npm run electron-mac`
+#### `npm run electron-win`
 Run the electron app without compiling, meant for test/debug
 Respectively, for iOs and for Windows
 
-### `npm run package-mac`
-### `npm run package-win`
+#### `npm run package-mac`
+#### `npm run package-win`
 Compiles the electron app and generates the build inside the `release-build` folder
 Respectively, for iOs and for Windows
 
 ############
-## Dev Ambient
+### Dev Ambient
 First of all, let's compile the `WebPortal`: to do so, run `grunt build`.
 Run electron, inside `electron_application_builder` folder, with command `npm run electron`, to run in debug mode.
 
-## Build Process
+### Build Process
 To compile for release, start with compiling the `WebPortal` with `grunt build`.
 The `\public` folder will be created inside `electron_application_builder` folder.
 After that, let's compile our electron app with `npm run package-win`, which will create the following structure:
