@@ -1,5 +1,7 @@
 # WALL OF LIFE
 
+[Download the Zip here (Windows Only)](https://github.com/SopraIt/wall-of-life/releases/download/v0.1/wall-of-life-dist.zip)
+
 ## Disclaimer
 Wall of Life is an educational software meant to help kids and young adults affected by cognitive disabilites
 to familiarize with everyday activites. To better reach this goal, it features a desktop application supporting
