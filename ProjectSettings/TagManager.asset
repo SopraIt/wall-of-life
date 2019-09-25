@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Selection
+  - Draggable
+  - DragIn
+  - Score
+  - Halo
+  - Undefined
+  - UI_selection
+  - LoadButton
+  - WayPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 955174565
+    locked: 0
+  - name: Containers
+    uniqueID: 3459615729
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Market_Items
+    uniqueID: 3985218923
+    locked: 0
+  - name: Draggable
+    uniqueID: 398531225
+    locked: 0
+  - name: UI
+    uniqueID: 1528026369
+    locked: 0
+  - name: Cursor
+    uniqueID: 4056808557
+    locked: 0
