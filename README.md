@@ -1,6 +1,6 @@
 # WALL OF LIFE
 
-[Download the desktop application clicking here (Windows Only)](https://github.com/SopraIt/wall-of-life/releases/download/v0.1/wall-of-life-dist.zip) 
+[Download the desktop application clicking here (Windows Only)](https://github.com/SopraIt/wall-of-life/releases/download/v0.1/wall-of-life-dist.zip)  
 Please refer the internal README.txt for further instruction on how to configure and play the application.
 
 ## Disclaimer
@@ -25,43 +25,34 @@ To use the Administration panel, please follow the README.MD into the '/webporta
 Json.NET
 by Newtonsoft
 
-Simple Fade Scene Transition System
-Made by FLATTUTORIALS
-
-Casual Puzzle World Sounds
-Made by POLIGONS SOUNDS
-
-Simple UI
-Made by UNRULY GAMES
-
-Human Ambience
-Made by ABOVEE
-
-DUSTYROOM
-FREE Casual Game SFX Pack
+Simple Fade Scene Transition System by FLATTUTORIALS  
+Casual Puzzle World Sounds by POLIGONS SOUNDS  
+Simple UI by UNRULY GAMES  
+Human Ambience by ABOVEE  
+FREE Casual Game SFX Pack Made by DUSTYROOM  
 
 #### The following free assets were originally used for this release:
 
-UI Icons:
+UI Icons:  
 Icons made by Freepik from www.flaticon.com
 
-Fredoka Font
-Copyright (c) 2011, Milena Brandao (milenabbrandao@gmail.com), with Reserved Font Name Fredoka.
+Fredoka Font  
+Copyright (c) 2011, Milena Brandao, with Reserved Font Name Fredoka.  
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
-Dimbo Regular Font
-© 2009, 2010, 2011, 2012 GrandChaos9000. Some Rights Reserved.
+Dimbo Regular Font  
+Â© 2009, 2010, 2011, 2012 GrandChaos9000. Some Rights Reserved.  
 (Under Licensed by Creative Commons CC-BY-SA 3.0)
 
-Merriweather Sans
-Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Merriweather Sans  
+Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'  
+This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 
-Source Sans
-Source® Sans Pro, Adobe's first open source typeface family, was designed by Paul D. Hunt.
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Source Sans  
+SourceÂ® Sans Pro, Adobe's first open source typeface family, was designed by Paul D. Hunt.  
+This Font Software is licensed under the SIL Open Font License, Version 1.1.  
 
 ## Special Thanks
-Simonetta Panerai, Valentina Catania and all the awesome crew of I Corrieri dell'Oasi
-[Vangos Pterneas for the original 'Wave Gesture' implementation](https://pterneas.com/2014/01/27/implementing-kinect-gestures/)
+Simonetta Panerai, Valentina Catania and all the awesome crew of I Corrieri dell'Oasi  
+[Vangos Pterneas for the original 'Wave Gesture' implementation](https://pterneas.com/2014/01/27/implementing-kinect-gestures/)  
 Microsoft, for creating the awesome Kinect.
