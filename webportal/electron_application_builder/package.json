@@ -7,7 +7,7 @@
   "main": "electron-starter.js",
   "homepage": "./",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "express-fileupload": "^1.0.0",
     "json-server": "^0.12.2"
